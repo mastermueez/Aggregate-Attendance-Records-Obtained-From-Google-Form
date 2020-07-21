@@ -20,6 +20,6 @@ The following parameters need to be set according to your requirements.
 * **update_worksheet**: If this is set to **True**, your previously specificed attendance worksheet will be updated with your form responses. Set this to **False** if you only want to see a list of IDs ordered by course code.
 
 ## Additional Notes
-* The student IDs are extracted from the emails used to submit the form. Therefore, institutional mails must be used to submit the form. The fucntion **get_id_from** returns the first 13 characters of a provided email address as that particular student's ID. It can be changed as required.
+* The student IDs are extracted from the emails used to submit the form. Therefore, institutional mails must be used to submit the form. The fucntion **get_id_from** returns the first 13 characters of a provided email address as that particular student's ID. It can be changed as required. This has been done to eliminate the possibility of a student missing out on their attendance because they typed their ID wrong.
 * If you have multiple sections in one class, you must use the keyword **Course Code** in your form or modify the script. Otherwise, in the console, student IDs won't by shown by order of course code.
 
