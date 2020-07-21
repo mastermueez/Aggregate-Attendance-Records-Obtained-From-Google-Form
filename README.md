@@ -1,11 +1,16 @@
 # Update Attendance Using Google Sheets API
 
 ## Overview
-The script in this repository has been created to keep track of attendance in an organised manner. It allows you to update a pre-existing Google sheets file with 0/1s based on the number of students who filled up a particular (attendance) form. However, before you can use, you must enable Google Sheets API and enable access privileges. Click [here](https://youtu.be/TQqIDKwov_Ms) to see how you can do that.
+The script in this repository has been created to keep track of attendance in an organised manner. It allows you to update a pre-existing Google sheets file with 0/1s based on the number of students who filled up a particular (attendance) form. However, before you can use this, you must enable Google Sheets API and certain access privileges. Click [here](https://youtu.be/TQqIDKwov_Ms) to see a tutorial on how to do that.
 
 
-## A Brief Outline of the Contents
+## A Brief Outline of User Defined Parameters
 
-* **Raspberry Pi**: This folder contains files that have been written to run on a Raspberry Pi equipped with openCV, scikit-learn and pandas library:
-  * **tain.py**: With this program running when a fruit is placed on the rotating platform, the sonar detects it and asks the user to enter an appropirate ripeness index for it. Then five images are captured with the servo rotating 72 degrees after each capture. Simultaneously, for each image captured, values for the following attributes -	*hue1,	sat1,	val1,	hue2,	sat2,	val2,	hue3,	sat3,	val3,	ripenessIndex* are written to a CSV file.
-  * **test.py**: Similary, when this program is run and a fruit is placed on the podium, using the previously generated dataset, the program predicts a ripeness value. Based on whether this value is even or odd, the servo attached on either side of the structure pushes the fruit towards the left or the right.
+* **cred_file_name**: This is the name of your credential file that you downloaded as show in the tutorial
+* **form_file_name**: This is the name of the sheets file that contain your form responses. If you click on Response tab of any Google Form, you will see an Sheets logo on the top right that reads ***View responses in Sheets***. Clicking on that will produce a Sheets file titled ***FormName (Responses)***. Then, share that file with the *client_email* present in the *credentials* file.
+* **form_ws_title**: = This is the name of the workshet in your sheet file. By default it will be **Form Responses 1**.
+
+* **info_file_name**: = This is the name of your sheets file which contains a list of all the students (ID required) for a particular course. You need to share this file with the *client_email* from the *credentials* file as well.
+* **info_ws_title**: = "Attendance"
+
+* **id_separator**: = ", "
