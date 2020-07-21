@@ -9,9 +9,8 @@ The following parameters need to be set according to your requirements.
 
 * **cred_file_name**: This is the name of your credential file that you downloaded as show in the tutorial
 * **form_file_name**: This is the name of the sheets file that contain your form responses. If you click on Response tab of any Google Form, you will see an Sheets logo on the top right that reads ***View responses in Sheets***. Clicking on that will produce a Sheets file titled ***FormName (Responses)***. Then, share that file with the *client_email* present in the *credentials* file.
-* **form_ws_title**: = This is the name of the workshet in your responses sheets file. By default it will be **Form Responses 1**.
-
-* **info_file_name**: = This is the name of your sheets file which contains a list of all the students (ID required) for a particular course. You need to share this file with the *client_email* from the *credentials* file as well.
-* **info_ws_title**: = This is the name of the worksheet in your student list sheets file that will be used to keep attendance.
-
-* **id_separator**: = The IDs for each section are displayed as output. If you can use commas, spaces, etc. as separators. Example: **", "**.
+* **form_ws_title**: This is the name of the workshet in your responses sheets file. By default it will be **Form Responses 1**.
+* **info_file_name**: This is the name of your sheets file which contains a list of all the students (ID required) for a particular course. You need to share this file with the *client_email* from the *credentials* file as well.
+* **info_ws_title**: This is the name of the worksheet in your student list sheets file that will be used to keep attendance.
+* **id_separator**: The IDs for each section are displayed as output. If you can use commas, spaces, etc. as separators. Example: **", "**.
+* **update_worksheet**: If this is set to **True**, your previously specificed attendance worksheet will be updated with your form responses. Set this to **False** if you only want to see a list of IDs ordered by course code.
