@@ -14,3 +14,6 @@ The following parameters need to be set according to your requirements.
 * **info_ws_title**: This is the name of the worksheet in your student list sheets file that will be used to keep attendance.
 * **id_separator**: The IDs for each section are displayed as output. If you can use commas, spaces, etc. as separators. Example: **", "**.
 * **update_worksheet**: If this is set to **True**, your previously specificed attendance worksheet will be updated with your form responses. Set this to **False** if you only want to see a list of IDs ordered by course code.
+
+## Additional Notes
+The student IDs are extracted from the emails used to submit the form. Therefore, institutional mails must be used to submit the form.
