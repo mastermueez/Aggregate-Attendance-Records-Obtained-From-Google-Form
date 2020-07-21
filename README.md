@@ -21,5 +21,5 @@ The following parameters need to be set according to your requirements.
 
 ## Additional Notes
 * The student IDs are extracted from the emails used to submit the form. Therefore, institutional mails must be used to submit the form. The fucntion *get_id_from* returns the first 13 characters of a provided email address as that particular student's ID. It can be changed as required.
-* If you have multiple sections in one class, you must use the keyword 'Course Code' in your form or modify the script.
+* If you have multiple sections in one class, you must use the keyword **Course Code** in your form or modify the script.
 
