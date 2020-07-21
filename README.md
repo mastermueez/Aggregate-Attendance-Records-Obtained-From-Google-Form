@@ -4,7 +4,7 @@
 The script in this repository has been created to keep track of attendance in an organised manner. It allows you to update a pre-existing Google sheets file with 0/1s based on the number of students who filled up a particular (attendance) form. However, before you can use this, you must enable Google Sheets API and certain access privileges. Click [here](https://youtu.be/TQqIDKwov_Ms) to see a tutorial on how to do that.
 
 
-## A Brief Outline of User Defined Parameters
+## User Defined Parameters
 
 * **cred_file_name**: This is the name of your credential file that you downloaded as show in the tutorial
 * **form_file_name**: This is the name of the sheets file that contain your form responses. If you click on Response tab of any Google Form, you will see an Sheets logo on the top right that reads ***View responses in Sheets***. Clicking on that will produce a Sheets file titled ***FormName (Responses)***. Then, share that file with the *client_email* present in the *credentials* file.
