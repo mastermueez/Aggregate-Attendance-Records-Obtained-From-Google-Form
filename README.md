@@ -20,4 +20,4 @@ The following parameters need to be set according to your requirements.
 * **update_worksheet**: If this is set to **True**, your previously specificed attendance worksheet will be updated with your form responses. Set this to **False** if you only want to see a list of IDs ordered by course code.
 
 ## Additional Notes
-The student IDs are extracted from the emails used to submit the form. Therefore, institutional mails must be used to submit the form. Example: 2021000000001@seu.edu.bd
+The student IDs are extracted from the emails used to submit the form. Therefore, institutional mails must be used to submit the form. Example: *2021000000001@seu.edu.bd*
