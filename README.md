@@ -1,7 +1,10 @@
 # Update Attendance Using Google Sheets API
 
+## Requirements
+* [Gspread](https://gspread.readthedocs.io/en/latest/)
+
 ## Overview
-The script in this repository has been created to keep track of attendance in an organised manner. It allows you to update a pre-existing Google sheets file with 0/1s based on the number of students who filled up a particular (attendance) form. However, before you can use this, you must enable Google Sheets API and certain access privileges. Click [here](https://youtu.be/TQqIDKwov_Ms) to see a tutorial on how to do that followed by a short demo.
+The python script in this repository has been created to keep track of attendance in an organised manner. It allows you to update a pre-existing Google sheets file with 0/1s based on the number of students who filled up a particular (attendance) form. However, before you can use this, you must enable Google Sheets API and certain access privileges. Click [here](https://youtu.be/TQqIDKwov_Ms) to see a tutorial on how to do that followed by a short demo.
 
 
 ## User Defined Parameters
