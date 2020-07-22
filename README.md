@@ -1,7 +1,7 @@
 # Automate Attendance Records Using Google Sheets API
 
 ## Overview
-The script in this repository has been created to keep track of student attendance. It updates a pre-existing Google sheets file with 0/1s based on the number of students who filled up a particular (attendance) form. However, before you can use this, you must enable Google Sheets API and certain access privileges. Click [here](https://youtu.be/8JgztFMGR38) to see a tutorial on how to do that followed by a short demo.
+Are you a teacher? Do you take your students' class attendance by asking them to fill up a Google Form? Do you wish you could aggregate all the form data into one place? Then, you've found the perfect script for that. The script in this repository updates a pre-existing Google sheets file (preferrably one containing the list of all the students enrolled in a particular course) with 0/1s based on the number of students who filled up a (attendance) form. However, before you can use this, you must enable Google Sheets API and certain access privileges. Click [here](https://youtu.be/8JgztFMGR38) to see a tutorial on how to do that followed by a short demo.
 
 ## Requirements
 * [Python](https://www.python.org/downloads/) (version used: 3.6.8)
