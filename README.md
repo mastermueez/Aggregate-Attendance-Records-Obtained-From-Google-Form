@@ -1,7 +1,7 @@
 # Automate Attendance Records Using Google Sheets API
 
 ## Overview
-Are you a teacher? Do you have your students fill up a Google Form every class to record their attendance? Do you wish you could aggregate all the form data into one place? Then, you've found a script that does exactly that. The script in this repository updates a pre-existing Google sheets file (preferrably one containing the list of all the students enrolled in a particular course) with 0/1s based on the students who filled up a (attendance) form. However, before you can use this, you must enable Google Drive and Google Sheets API, alongside certain access privileges. Click [here](https://youtu.be/8JgztFMGR38) to see a tutorial on how to do that followed by a short demo.
+Are you a teacher? Do you have your students fill up a Google Form every class to record their attendance? Do you wish you could aggregate all the form data into one place? Then, you've found a script that does exactly that. The script in this repository updates a pre-existing Google sheets file (preferrably one containing the list of all the students enrolled in a particular course) with 0/1s based on whether students filled up a corresponding (attendance) form or not. However, before you can use this, you must enable Google Drive and Google Sheets API, alongside certain access privileges. Click [here](https://youtu.be/8JgztFMGR38) to see a tutorial on how to do that followed by a short demo.
 
 ![Demo:](https://github.com/mastermueez/Automate-Attendance-Records-Using-Google-Sheets-API/blob/master/DemoFigure.jpeg?raw=true)
 
