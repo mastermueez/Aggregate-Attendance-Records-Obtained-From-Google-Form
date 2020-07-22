@@ -18,7 +18,8 @@ The following parameters need to be set according to your requirements.
 * **info_file_name**: This is the name of your sheets file which contains a list of all the students (ID required) for a particular course. You need to share this file with the *client_email* from the *credentials* file as well.
 * **info_ws_title**: This is the name of the worksheet in your student list sheets file that will be used to keep attendance.
 * **non_class_col_count**: This is the number of columns present in your aforementioned worksheet that contains non attendance related columns. For instance, if you have only ID and Name as such columns, the value for this variable should be 2.
-* **id_separator**: The IDs for each section are displayed as output. If you can use commas, spaces, etc. as separators. Example: **", "**.
+* **id_separator**: The IDs for each section are displayed as output. You can use commas, spaces, etc. as separators.
+* **email_domain**: Email domain of the students' insitutional accounts. Please refer to the **Additional Notes** section for more on this.
 * **update_worksheet**: If this is set to **True**, your previously specificed attendance worksheet will be updated with your form responses. Set this to **False** if you only want to see a list of IDs ordered by course code.
 
 ## Additional Notes
